@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABCBooks Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>ABCBooks Collection</h1>
+        <div id="options">
+            <button onclick="window.location.href='books.html'">View All Books</button>
+            <div id="book-form">
+                <h2>Add/Edit Book</h2>
+                <form id="form">
+                    <input type="hidden" id="bookId" />
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" required>
+                    <label for="authors">Authors:</label>
+                    <input type="text" id="authors" required>
+                    <label for="publisher">Publisher:</label>
+                    <input type="text" id="publisher" required>
+                    <label for="year">Year:</label>
+                    <input type="number" id="year" required>
+                    <label for="image">Image URL:</label>
+                    <input type="text" id="image" required>
+                    <label for="url">Book URL:</label>
+                    <input type="text" id="url" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="books.js"></script>
+</body>
+</html>

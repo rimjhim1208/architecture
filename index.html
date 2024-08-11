@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login">
+        <h1>Book Library</h1>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="email" id="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Sign in</button>
+        </form>
+    </div>
+    <div id="app" style="display:none;">
+        <h1>Book Library</h1>
+        <div>
+            <button onclick="location.href='addBook.html'">Add Book</button>
+            <button onclick="location.href='books.html'">Show All Books</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

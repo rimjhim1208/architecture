@@ -1,0 +1,50 @@
+[
+  {
+    "Title": "Automating DevOps with GitLab CI/CD Pipelines",
+    "Authors": "Christopher Cowell, Nicholas Lotz and Chris Timberlake",
+    "Publisher": "Packt Publishing",
+    "Year": 2023,
+    "Image": "sandbox:/mnt/data/A_collection_of_professional_book_covers_with_titl.png#1",
+    "URL": "https://www.oreilly.com/library/view/automating-devops-with/9781803233000/"
+  },
+  {
+    "Title": "AWS Cookbook",
+    "Authors": "John Culkin and Mike Zazon",
+    "Publisher": "O'Reilly Media",
+    "Year": 2021,
+    "Image": "sandbox:/mnt/data/A_collection_of_professional_book_covers_with_titl.png#2",
+    "URL": "https://www.amazon.com/AWS-Cookbook-John-Culkin/dp/1098113203"
+  },
+  {
+    "Title": "Serverless Development on AWS",
+    "Authors": "Sheen Brisals and Luke Hedger",
+    "Publisher": "O'Reilly Media",
+    "Year": 2024,
+    "Image": "sandbox:/mnt/data/A_collection_of_professional_book_covers_with_titl.png#3",
+    "URL": "https://www.amazon.com/Serverless-Development-AWS-Guide-Building/dp/1801078517"
+  },
+  {
+    "Title": "Building Scalable Apps with Redis and Node.js",
+    "Authors": "Joshua Johanan",
+    "Publisher": "Packt Publishing",
+    "Year": 2014,
+    "Image": "sandbox:/mnt/data/A_collection_of_professional_book_covers_with_titl.png#4",
+    "URL": "https://www.packtpub.com/product/building-scalable-apps-with-redis-and-nodejs/9781783987245"
+  },
+  {
+    "Title": "Terraform Cookbook",
+    "Authors": "Kerim Satirli and Taylor Dolezal",
+    "Publisher": "O'Reilly Media",
+    "Year": 2024,
+    "Image": "sandbox:/mnt/data/A_collection_of_professional_book_covers_with_titl.png#5",
+    "URL": "https://www.amazon.com/Terraform-Cookbook-Kerim-Satirli/dp/1098101946"
+  },
+  {
+    "Title": "Amazon Web Services in Action",
+    "Authors": "Michael Wittig and Andreas Wittig",
+    "Publisher": "Manning Publications",
+    "Year": 2023,
+    "Image": "sandbox:/mnt/data/A_collection_of_professional_book_covers_with_titl.png#6",
+    "URL": "https://www.manning.com/books/amazon-web-services-in-action-third-edition"
+  }
+]

@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('project.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#login, #app {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 500px;
+}
+
+#login h1, #app h1, #book-list h2, #book-form h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #f8f8f8;
+    margin-bottom: 20px;
+}
+
+#login-form, #book-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form label, #book-form label {
+    margin-top: 10px;
+    color: #f8f8f8;
+}
+
+#login-form input, #book-form input {
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+}
+
+#login-form button, #book-form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#login-form button:hover, #book-form button:hover {
+    background-color: #c2185b;
+}
+
+#books li {
+    color: #fff;
+}
+
+#books button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#books button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional CSS for Book List Items and Headers */
+#book-list h2, #book-form h2, #book-list ul li {
+    color: #f8f8f8;
+}
+
+#book-form label {
+    color: #f8f8f8;
+}
+
+#book-form input {
+    background-color: #333;
+    color: #f8f8f8;
+    border: 1px solid #444;
+}
